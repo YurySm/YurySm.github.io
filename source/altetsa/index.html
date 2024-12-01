@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Altetsa</title>
+    <meta name="title" content="">
+    <meta name="description" content="">
+    <link rel="stylesheet" href="css/style.min.css">
+    <script defer src="js/script.js"></script>
+</head>
+<body>
+    <header class="header">
+        <button class="header__humburger">
+            <picture>
+                <source media="(min-width: 769px)" srcset="icons/humbB.svg">
+                <source media="(max-width: 768px)" srcset="icons/humb-mob.svg">
+                <img src="icons/humburger.svg" alt="">
+            </picture>    
+        </button>
+        <button class="header__close">
+            <picture>
+                <source media="(min-width: 769px)" srcset="icons/close.svg">
+                <source media="(max-width: 768px)" srcset="icons/close-mob.svg">
+                <img src="icons/close.svg" alt="">
+            </picture>
+        </button>
+        <a href="index.html" class="header__logo">
+            <picture>
+                <source media="(min-width: 1440px)" srcset="img/header/logoB.svg">
+                <source media="(max-width: 768px)" srcset="img/header/logo-mob.svg">
+                <img src="img/header/logoB.svg" alt="Altesta">
+            </picture>
+            
+        </a>
+        <a href="template/tabs.html" class="btn btn__header">
+            Let's Work Together
+        </a>
+        <nav class="header__menu">
+            <ul class="header__nav-items">
+                <li class="header__nav-item">
+                    <a href="template/about.html"><b>О нас</b> <span><svg width="12" height="9" viewBox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M11.8366 3.7344L8.26556 0.163407C8.04769 -0.0544689 7.69434 -0.0544689 7.47646 0.163407C7.25854 0.381327 7.25854 0.734588 7.47646 0.952508L10.0949 3.57099L0.557968 3.57099C0.249836 3.57099 0 3.82082 0 4.12896C0 4.43704 0.249836 4.68692 0.557968 4.68692L10.0949 4.68692L7.47655 7.3054C7.25863 7.52332 7.25863 7.87658 7.47655 8.0945C7.58547 8.20338 7.72831 8.25792 7.8711 8.25792C8.0139 8.25792 8.15669 8.20338 8.26565 8.0945L11.8366 4.52351C12.0545 4.30559 12.0545 3.95232 11.8366 3.7344Z" fill="white"/>
+                        </svg></span> <br> About</a>
+                </li>
+                <li class="header__nav-item">
+                    <a href="template/services.html"><b>Услуги</b> <span><svg width="12" height="9" viewBox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M11.8366 3.7344L8.26556 0.163407C8.04769 -0.0544689 7.69434 -0.0544689 7.47646 0.163407C7.25854 0.381327 7.25854 0.734588 7.47646 0.952508L10.0949 3.57099L0.557968 3.57099C0.249836 3.57099 0 3.82082 0 4.12896C0 4.43704 0.249836 4.68692 0.557968 4.68692L10.0949 4.68692L7.47655 7.3054C7.25863 7.52332 7.25863 7.87658 7.47655 8.0945C7.58547 8.20338 7.72831 8.25792 7.8711 8.25792C8.0139 8.25792 8.15669 8.20338 8.26565 8.0945L11.8366 4.52351C12.0545 4.30559 12.0545 3.95232 11.8366 3.7344Z" fill="white"/>
+                        </svg></span> <br> Skills</a>
+                </li>
+                <li class="header__nav-item  price-item">
+                    <a href="template/price.html"><b>Цены</b> <span><svg width="12" height="9" viewBox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M11.8366 3.7344L8.26556 0.163407C8.04769 -0.0544689 7.69434 -0.0544689 7.47646 0.163407C7.25854 0.381327 7.25854 0.734588 7.47646 0.952508L10.0949 3.57099L0.557968 3.57099C0.249836 3.57099 0 3.82082 0 4.12896C0 4.43704 0.249836 4.68692 0.557968 4.68692L10.0949 4.68692L7.47655 7.3054C7.25863 7.52332 7.25863 7.87658 7.47655 8.0945C7.58547 8.20338 7.72831 8.25792 7.8711 8.25792C8.0139 8.25792 8.15669 8.20338 8.26565 8.0945L11.8366 4.52351C12.0545 4.30559 12.0545 3.95232 11.8366 3.7344Z" fill="white"/>
+                        </svg></span> <br> Price</a>
+                </li>
+                <li class="header__nav-item">
+                    <a href="template/contacts.html"><b>Kонтакты</b> <span><svg width="12" height="9" viewBox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M11.8366 3.7344L8.26556 0.163407C8.04769 -0.0544689 7.69434 -0.0544689 7.47646 0.163407C7.25854 0.381327 7.25854 0.734588 7.47646 0.952508L10.0949 3.57099L0.557968 3.57099C0.249836 3.57099 0 3.82082 0 4.12896C0 4.43704 0.249836 4.68692 0.557968 4.68692L10.0949 4.68692L7.47655 7.3054C7.25863 7.52332 7.25863 7.87658 7.47655 8.0945C7.58547 8.20338 7.72831 8.25792 7.8711 8.25792C8.0139 8.25792 8.15669 8.20338 8.26565 8.0945L11.8366 4.52351C12.0545 4.30559 12.0545 3.95232 11.8366 3.7344Z" fill="white"/>
+                        </svg></span> <br> Contact</a>
+                </li>
+                <li class="header__nav-item no-item">
+                </li>
+                <li class="header__nav-item support-item">
+                    <a href="template/policies.html"><b>политики</b> <span><svg width="12" height="9" viewBox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M11.8366 3.7344L8.26556 0.163407C8.04769 -0.0544689 7.69434 -0.0544689 7.47646 0.163407C7.25854 0.381327 7.25854 0.734588 7.47646 0.952508L10.0949 3.57099L0.557968 3.57099C0.249836 3.57099 0 3.82082 0 4.12896C0 4.43704 0.249836 4.68692 0.557968 4.68692L10.0949 4.68692L7.47655 7.3054C7.25863 7.52332 7.25863 7.87658 7.47655 8.0945C7.58547 8.20338 7.72831 8.25792 7.8711 8.25792C8.0139 8.25792 8.15669 8.20338 8.26565 8.0945L11.8366 4.52351C12.0545 4.30559 12.0545 3.95232 11.8366 3.7344Z" fill="white"/>
+                        </svg></span> <br> Support</a>
+                </li>
+            </ul>
+            <img src="img/header/menu-pic.png" alt="меню" class="header__nav-img">
+            <h3 class="hero__descr nav__descr">altetsa</h3>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="hero__wrapper animate__animated animate__fadeInDown animate__repeat-1">
+                <h1 class="hero__title">
+                    мы создаем <span>e-commerce</span> проекты по модели dropshiping на платформе <span>shopify</span>
+                </h1>
+                <h2 class="hero__subtitle">
+                    Мы объединяем UX-дизайн с бизнес-стратегиями
+                    для достижения результатов.
+                </h2>
+            </div>
+            <h3 class="hero__descr animate__animated animate__fadeInUp animate__repeat-1">shopify</h3>
+            <h3 class="hero__descr_mob animate__animated animate__fadeInUp animate__repeat-1">
+                <img src="img/hero/hero-descr-mob.svg" alt="shopify">
+            </h3>
+            <div class="section-number">01</div>
+            <aside class="counter-dots">
+                <span class="active"></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </aside>
+            <aside class="counter-number">
+                <span>01</span>/04
+            </aside> 
+            
+            <!-- <picture class="hero__bg animate__animated animate__fadeInDownBig animate__repeat-1">
+                <source media="(min-width: 1440px)" srcset="img/hero/man.png">
+                <source media="(max-width: 540px)" srcset="img/hero/man-mob.png">
+
+                <img src="img/hero/man.png" alt="man" >
+            </picture> -->
+
+            <img class="hero__bg" src="img/hero/man.png" alt="man" >
+            
+        </section>
+    </main>
+
+    
+</body>
+</html>
